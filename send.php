@@ -23,7 +23,7 @@
 	$mail->Body = $mailcontent; 
 	$mail->AltBody = "提示邮件，请勿回复！"; //当邮件不支持html时备用显示，可以省略 
 	$mail->WordWrap = 80; // 设置每行字符串的长度
-	$mail->AddAttachment("013.JPG"); //可以添加附件
+	$mail->AddAttachment("img/013.JPG"); //可以添加附件
 	$mail->IsHTML(true);
 
 //	$mail->Send();//发送
